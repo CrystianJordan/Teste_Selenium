@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6bb1f36f-d900-493d-94d5-537b802e2766" name="Default Changelist" comment="" />
+    <list default="true" id="6bb1f36f-d900-493d-94d5-537b802e2766" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/net/weg/easy/webdriver/catalog/ExemploTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/net/weg/easy/webdriver/catalog/ExemploTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/net/weg/easy/webdriver/catalog/ExemploTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/net/weg/easy/webdriver/catalog/ExemploTest.class" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -46,13 +51,31 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="-471164148">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.16" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="74" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="74" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="456">
+            <state relative-caret-position="833">
               <caret line="49" column="33" selection-start-line="49" selection-start-column="33" selection-end-line="49" selection-end-column="33" />
             </state>
           </provider>
@@ -60,9 +83,7 @@
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cat-test-system.iml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-544" />
-          </provider>
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -72,25 +93,22 @@
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.classpath">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-286" />
-          </provider>
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/net/weg/easy/webdriver/catalog/ExemploTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="140">
-              <caret line="78" selection-start-line="78" selection-end-line="78" />
-              <folding>
-                <element signature="e#1150#1151#0" expanded="true" />
-                <element signature="e#1234#1235#0" expanded="true" />
-              </folding>
+              <caret line="85" column="8" selection-start-line="85" selection-start-column="8" selection-end-line="85" selection-end-column="58" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -110,8 +128,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -156,7 +174,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -234,66 +252,67 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ExemploTest_testEmail - 2018.10.29 at 22h 48m 42s.xml">
-      <configuration name="ExemploTest.testEmail" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ExemploTest_testEmail - 2018.10.29 at 22h 50m 45s.xml">
-      <configuration name="ExemploTest.testEmail" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ExemploTest_testEmail - 2018.10.29 at 22h 53m 26s.xml">
-      <configuration name="ExemploTest.testEmail" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ExemploTest_testEmail - 2018.10.29 at 22h 54m 34s.xml">
-      <configuration name="ExemploTest.testEmail" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ExemploTest_testEmail - 2018.10.29 at 22h 55m 55s.xml">
-      <configuration name="ExemploTest.testEmail" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ExemploTest_testEmail - 2018.10.29 at 22h 56m 19s.xml">
-      <configuration name="ExemploTest.testEmail" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ExemploTest_testEmail - 2018.10.29 at 22h 56m 38s.xml">
-      <configuration name="ExemploTest.testEmail" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ExemploTest_testEmail - 2018.10.29 at 22h 57m 28s.xml">
-      <configuration name="ExemploTest.testEmail" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="ExemploTest_testEmail - 2018.10.29 at 22h 58m 13s.xml">
       <configuration name="ExemploTest.testEmail" configurationId="JUnit" />
     </history-entry>
     <history-entry file="ExemploTest_testEmail - 2018.10.29 at 23h 00m 03s.xml">
       <configuration name="ExemploTest.testEmail" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="ExemploTest_testEmail - 2018.10.30 at 08h 54m 26s.xml">
+      <configuration name="ExemploTest.testEmail" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ExemploTest_testEmail - 2018.10.30 at 08h 56m 59s.xml">
+      <configuration name="ExemploTest.testEmail" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ExemploTest_testEmail - 2018.10.30 at 08h 58m 12s.xml">
+      <configuration name="ExemploTest.testEmail" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ExemploTest_testEmail - 2018.10.30 at 09h 00m 14s.xml">
+      <configuration name="ExemploTest.testEmail" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ExemploTest_testEmail - 2018.10.30 at 09h 01m 24s.xml">
+      <configuration name="ExemploTest.testEmail" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ExemploTest_testEmail - 2018.10.30 at 09h 02m 47s.xml">
+      <configuration name="ExemploTest.testEmail" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ExemploTest_testEmail - 2018.10.30 at 09h 04m 46s.xml">
+      <configuration name="ExemploTest.testEmail" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ExemploTest_testEmail - 2018.10.30 at 09h 14m 24s.xml">
+      <configuration name="ExemploTest.testEmail" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24966443" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25302014" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" weight="0.32907802" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.33333334" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.33333334" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Maven Projects" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32907802" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Maven Projects" order="7" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -302,32 +321,24 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
+        <state relative-caret-position="833">
           <caret line="49" column="33" selection-start-line="49" selection-start-column="33" selection-end-line="49" selection-end-column="33" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/cat-test-system.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-544" />
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/.project">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/.classpath">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-286" />
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/net/weg/easy/webdriver/catalog/ExemploTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="140">
-          <caret line="78" selection-start-line="78" selection-end-line="78" />
-          <folding>
-            <element signature="e#1150#1151#0" expanded="true" />
-            <element signature="e#1234#1235#0" expanded="true" />
-          </folding>
+          <caret line="85" column="8" selection-start-line="85" selection-start-column="8" selection-end-line="85" selection-end-column="58" />
         </state>
       </provider>
     </entry>

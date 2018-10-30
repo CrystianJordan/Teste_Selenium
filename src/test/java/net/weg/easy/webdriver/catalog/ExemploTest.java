@@ -20,7 +20,7 @@ public class ExemploTest extends TestCase {
 
 	@Before
 	public void setUp() throws Exception {
-		System.setProperty("webdriver.chrome.driver", "C:\\Users\\cryst\\OneDrive\\Área de Trabalho\\cat-test-system\\src\\test\\resources\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\cryst\\OneDrive\\Área de Trabalho\\estudantil\\GitHub\\cat-test-system\\src\\test\\resources\\chromedriver.exe");
 		driver = new ChromeDriver();
 	
 	}
@@ -72,17 +72,23 @@ Thread.sleep(3000);
 
 		btnEscrever.click();
 
-		Thread.sleep(5000);
+		Thread.sleep(3000);
 
 		WebElement campoPara = driver.findElement(By.name("to"));
 		WebElement campoAssunto = driver.findElement(By.name("subjectbox"));
-		WebElement campoTexto = driver.findElement(By.id("8h"));
+		campoPara.sendKeys("testepinguino@gmail.com");
+		campoAssunto.sendKeys("Teste de Sistema");
+
+		WebElement campoTexto = driver.findElement(By.xpath("(.//*[@aria-label='Corpo da mensagem'])[2]"));
+		campoTexto.click();
+		Thread.sleep(2000);
+		campoTexto = driver.findElement(By.xpath("(.//*[@aria-label='Corpo da mensagem'])[2]"));
+		campoTexto.sendKeys("Selenium webdrive é legal!");
 		WebElement btnEnviar = driver.findElement(By.id("6q"));
 
 
-		campoPara.sendKeys("testepinguino@gmail.com");
-		campoAssunto.sendKeys("Teste de Sistema");
-		campoTexto.sendKeys("Selenium webdrive é legal!");
+
+
 		btnEnviar.click();
 
 		Thread.sleep(5000);
