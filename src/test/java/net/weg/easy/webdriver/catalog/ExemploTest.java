@@ -84,10 +84,10 @@ Thread.sleep(3000);
 		Thread.sleep(2000);
 		campoTexto = driver.findElement(By.xpath("(.//*[@aria-label='Corpo da mensagem'])[2]"));
 		campoTexto.sendKeys("Selenium webdrive é legal!");
-		WebElement btnEnviar = driver.findElement(By.id("6q"));
+		WebElement btnEnviar = driver.findElement(By.xpath("(.//*[@aria-label='Enviar']) [2]"));
 
 
-
+Thread.sleep(2000);
 
 		btnEnviar.click();
 
