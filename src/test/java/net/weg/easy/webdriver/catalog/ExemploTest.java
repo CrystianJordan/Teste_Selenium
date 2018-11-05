@@ -33,7 +33,7 @@ public class ExemploTest extends TestCase {
 	@Test
 	public void testEmail() throws Exception {
 		driver.get("http://www.gmail.com.br/");
-		
+		//loga no email
 		WebElement campoDeEmail = driver.findElement(By.name("identifier"));
 		WebElement btnProximaEmail = driver.findElement(By.className("RveJvd"));
 		campoDeEmail.sendKeys("testepinguino@gmail.com");
@@ -57,10 +57,12 @@ Thread.sleep(3000);
 		campoDeSenha.sendKeys("coxinha123");
 		btnProximaSenha.click();
 
+		//verifica se email abriu
 		Thread.sleep(5000);
 		boolean achouMailBox = driver.getPageSource().contains("Gmail");
 		boolean achouCaixaEntrada = driver.getPageSource().contains("Caixa de entrada");
 
+		//tenta clicar no botão escrever
 		WebElement btnEscrever = driver.findElement(By.className("z0"));
 		Actions builder = new Actions(driver);
 		try {
@@ -73,7 +75,7 @@ Thread.sleep(3000);
 		btnEscrever.click();
 
 		Thread.sleep(3000);
-
+//escreve o email
 		WebElement campoPara = driver.findElement(By.name("to"));
 		WebElement campoAssunto = driver.findElement(By.name("subjectbox"));
 		campoPara.sendKeys("testepinguino@gmail.com");
@@ -84,7 +86,7 @@ Thread.sleep(3000);
 		Thread.sleep(2000);
 		campoTexto = driver.findElement(By.xpath("(.//*[@aria-label='Corpo da mensagem'])[2]"));
 		campoTexto.sendKeys("Selenium webdrive é legal!");
-		WebElement btnEnviar = driver.findElement(By.xpath("(.//*[@aria-label='Enviar']) [2]"));
+		WebElement btnEnviar = driver.findElement(By.className("gU"));
 
 
 Thread.sleep(2000);
@@ -92,6 +94,56 @@ Thread.sleep(2000);
 		btnEnviar.click();
 
 		Thread.sleep(5000);
+
+		//abre o email foi recebido
+		WebElement clicarEmailRecebido = driver.findElement(By.className("yW"));
+
+		clicarEmailRecebido.click();
+
+		Thread.sleep(2000);
+
+		//responde o email
+		WebElement btnResponder = driver.findElement(By.className("ams"));
+		btnResponder.click();
+
+		Thread.sleep(2000);
+
+		WebElement campoResposta = driver.findElement(By.className("Am"));
+
+		campoResposta.sendKeys("Ok, Email lindo. Obrigado");
+
+		WebElement btnEnviarResposta = driver.findElement(By.className("gU"));
+
+		Thread.sleep(1000);
+
+		btnEnviarResposta.click();
+
+		Thread.sleep(2000);
+
+
+
+
+		//verifica a caixa de saida
+		WebElement btnCaixaSaida = driver.findElement(By.xpath("//div[@class='TN bzz aHS-bnu']"));
+
+		btnCaixaSaida.click();
+
+		Thread.sleep(2000);
+
+		WebElement emailEnviado = driver.findElement(By.className("yX"));
+
+		emailEnviado.click();
+
+		Thread.sleep(2000);
+
+		//exclui o email
+
+		btnCaixaSaida.click();
+		Thread.sleep(2000);
+
+		WebElement checkbox = driver.findElement(By.className("Oz-x3"));
+
+		checkbox.click();
 
 
 
